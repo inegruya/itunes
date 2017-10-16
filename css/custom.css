@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+
+h1, h2, h3 {
+    font-family: "Blackout Midnight", sans-serif;  
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4, h5, p {
+    font-family: "Arvo", serif;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: left;
+}
+
+a {
+    font-family: "Blackout Midnight", sans-serif;
+}
+
+
+.btn-secondary {
+    background-color: #F51515;
+    color: white;
+    border: 5px solid #2c9494;
+}
+
+.btn-secondary:hover {
+    background-color: #2c9494;
+}
+
+li {
+    font-family: "Arvo", serif; 
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
