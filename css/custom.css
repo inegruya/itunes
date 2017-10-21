@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
-@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
 
-.container_blauw {
-    background-color: #6ab3b3;
-}
-
-.container_rood {
-    background-color: #fd4c4c;
-}
-
+/** typografie **/
 h1, h2, h3 {
     font-family: "Blackout Midnight", sans-serif;  
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2 {
@@ -34,79 +26,40 @@ h5 {
     font-size: 15px;
     margin-left: 50%;
     margin-top: -10px;
-}
-
-a {
-    font-family: "Blackout Midnight", sans-serif;
-}
-
-
-.btn {
-    font-family: "Arvo", serif;
-    font-weight: bold;
-}
-
-.btn-secondary {
-    background-color: #F51515;
-    color: white;
-    border: 5px solid #2c9494;
-}
-
-.btn-block {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 10%;
-}
-
-.btn-secondary:hover {
-    background-color: #2c9494;
-    border: none;
-}
-
-ul {
-    list-style-image: url("afbeeldingen/peace.png"); 
+    text-align: right;
 }
 
 li {
     font-family: "Arvo", serif; 
 }
 
-.card {
-    max-width: 600px;
+/** buttons **/
+.btn {
+    font-weight: bold;
 }
 
-.tracklist {
-    margin-top: 20px;
+.btn-secondary {
+    background-color: #F51515;
+    font-family: "Blackout Midnight", sans-serif;
+    border: 3px solid #2c9494;
 }
 
-.img-fluid {
-    margin-top: 20px;
+.btn-outline-danger, .btn-outline-info {
+    font-family: "Arvo", serif;
+
+}
+.btn-dark {
+    background-color: #2c9494;
+    border: none;
 }
 
+/** achtergrond **/
 
- Extra small devices (portrait phones, less than 576px)
- No media query since this is the default in Bootstrap
-
-
-Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    .btn-secondary {
-        font-size: 30px;
-    }
- }
-
-Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-    
-    h1 {
-        font-size: 100px;
-    }
-    
+.blue {
+    background-color: #2c9494;
 }
 
+.red {
+    background-color: #F51515;
+}
 
-Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
