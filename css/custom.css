@@ -71,6 +71,14 @@ li {
     .flexible {
         margin-top: 100px;
     }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .btn-secondary {
+        font-size: 30px;
+    }
  }
 
 @media (min-width: 992px) { ... }
