@@ -6,7 +6,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 h2 {
@@ -46,6 +46,7 @@ li {
 
 .btn-outline-danger, .btn-outline-info {
     font-family: "Arvo", serif;
+    border-width: 3px;
 
 }
 .btn-dark {
@@ -56,11 +57,11 @@ li {
 /** achtergrond **/
 
 .blue {
-    background-color: #2c9494;
+    background-color: #6AB4B4;
 }
 
 .red {
-    background-color: #F51515;
+    background-color: #FD4C4C;
 }
 
 
@@ -81,7 +82,11 @@ li {
     }
  }
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    .carousel-caption {
+        margin-bottom: 240px !important;
+    }
+ }
 
 @media (min-width: 1200px) { ... }
 
