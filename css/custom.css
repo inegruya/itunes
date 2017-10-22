@@ -30,8 +30,13 @@ h5 {
     text-align: right;
 }
 
+/** list styles **/
 li {
     font-family: "Arvo", serif; 
+}
+
+ul {
+    list-style-image: url("afbeeldingen/peace.jpg");
 }
 
 /** buttons **/
