@@ -2,7 +2,8 @@
 
 /** typografie **/
 h1, h2, h3 {
-    font-family: "Blackout Midnight", sans-serif;  
+    font-family: "Blackout Midnight", sans-serif; 
+    font-weight: bold; 
 }
 
 h1 {
